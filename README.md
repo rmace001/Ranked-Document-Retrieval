@@ -7,7 +7,7 @@ An `InvertedIndex` class was built to store term-indices and document-length-ind
 - Utilizes word-stemming
 - Removes stop-words from each query and document
 - Evaluates various retrieval methods based on speed, precision, and recall
-# InvertedIndex Class Description and Relevant Functions for Ranked Document Retrieval
+# `InvertedIndex` Class Description and Relevant Functions for Ranked Document Retrieval
 - Class `InvertedIndex`
 	- Data Members
 		- set `stop_list_set`
@@ -24,9 +24,7 @@ An `InvertedIndex` class was built to store term-indices and document-length-ind
   - Other Important Functions
     - `cosine_score`
 # Running InvertedIndex.py
-To run this program, you must contain a directory named `data/` which stores the same files as the ones in `data/` in this repository. The `data/` folder must be in the same directory as this program. The `data/` directory stores an `ap89_collection` documents file and other necessary files that correspond to this program. From this point onward, you may now successfully run this python (version 3.0 and above) program. 
-# Submission
-The submission `Assignment2.zip` file contains all of the files needed for this assignment. The additional files include the `README.md` documentation, and `InvertedIndex.py`. The other files given include the `data/` folder.
+To run this program, you must contain the files in the repository all in the same directory as this program. The files include an `ap89_collection` documents file and other necessary files that correspond to this program. From this point onward, you may now successfully run this python (version 3.0 and above) program. The `results_file.txt` contains the ranked retrieval scores for each query. The `output.txt` file contains the `trec_eval.pl` evaluation statistics.
 # References
 - CS172 L2-L3 Slides: Cosine Similarity Function
 - https://www.youtube.com/watch?v=R-HLU9Fl5ug
